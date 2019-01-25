@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "demo": "tsc && node hello.js",
+    "demo-cmd": "tsc declarations.d.ts hello.ts && node hello.js",
+    "demo-cmd-invalid": "tsc hello.ts && node hello.js"
   },
   "devDependencies": {
-    "ts-node": "7.0.1",
     "typescript": "3.2.2"
   }
 }

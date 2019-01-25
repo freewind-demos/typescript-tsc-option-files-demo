@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "strict": true,
+    "strict": false,
     "target": "es6",
     "module": "commonjs",
     "noImplicitAny": true,
@@ -9,6 +9,7 @@
     "sourceMap": true
   },
   "files": [
+    "declarations.d.ts",
     "hello.ts"
   ]
 }

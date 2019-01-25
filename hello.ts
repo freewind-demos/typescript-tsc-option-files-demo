@@ -1,1 +1,3 @@
-console.log('Hello');
+abc = 1;
+
+console.log(abc);
