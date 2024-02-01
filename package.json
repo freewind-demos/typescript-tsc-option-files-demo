@@ -1,10 +1,10 @@
 {
-    "scripts": {
-        "demo-cmd": "tsc declarations.d.ts hello.ts && node hello.js",
-        "demo-cmd-invalid": "tsc hello.ts && node hello.js",
-        "start": "tsc && node hello.js"
-    },
-    "devDependencies": {
-        "typescript": "3.2.2"
-    }
+  "scripts": {
+    "demo-cmd": "tsc declarations.d.ts hello.ts && node hello.js",
+    "demo-cmd-invalid": "tsc hello.ts && node hello.js",
+    "start": "tsc && node hello.js"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3"
+  }
 }
